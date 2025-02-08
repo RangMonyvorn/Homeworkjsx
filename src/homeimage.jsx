@@ -24,7 +24,7 @@ const HomeImage = () => {
     { id: 4, src: img4, name: "Nike" },
     { id: 5, src: img5, name: "Nike Zoom" },
     { id: 6, src: img6, name: "Nike Zoom" },
-    { id: 7, src: img7, name: "Nike Zoom" },
+    { id: 7, src: img7, name: "Nike Zoom" },  
     { id: 8, src: img8, name: "Nike" },
     { id: 9, src: img9, name: "Nikenew" },
     { id: 10, src: img10, name: "Nike" },
@@ -63,6 +63,7 @@ const HomeImage = () => {
             />
             </Link>
           ))}
+          
         </div>
       </div>
 

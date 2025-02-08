@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import "./App.css";
 
 function Header() {
-  const [activeTab, setActiveTab] = useState("/HOME"); // Default active tab
 
 
 
@@ -80,9 +79,7 @@ function Header() {
               <button className="btn btn-outline-light" type="button" onClick={toggleLoginForm}>
                 Login
               </button>
-              <button className="btn btn-outline-light" type="button">
-                🛒
-              </button>
+              
             </form>
           </div>
         </div>

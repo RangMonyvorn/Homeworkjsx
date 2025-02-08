@@ -25,7 +25,7 @@ nav a{
   transition: all .5s;
   letter-spacing: 2px;
 }
-.active {
+nav a.active {
   font-weight: 300;
   color: red;
   padding: 10px 20px;
@@ -399,6 +399,7 @@ section img{
 
 
 /* home Details  */
+
 .homedetail{
   padding-top: 6rem;
 }
